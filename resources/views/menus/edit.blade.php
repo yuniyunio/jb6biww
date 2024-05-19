@@ -23,7 +23,7 @@
                             @method('PUT')
 
                             <div class="form-group">
-                                <label for="nama_menu">Nama Bucket</label>
+                                <label for="nama_menu">Nama Parfum</label>
                                 <input type="text" class="form-control" id="nama_menu" name="nama_menu" value="{{ $menu->nama_menu }}">
                             </div>
 

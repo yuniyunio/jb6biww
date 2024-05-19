@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="card">
-                    <div class="card-header bg-primary text-white">List Pesanan</div>
+                    <div class="card-header bg-primary text-white">List Parfum</div>
 
                     <div class="card-body">
                         @if(session('success'))
@@ -14,13 +14,13 @@
                             </div>
                         @endif
 
-                        <a href="{{ route('menus.create') }}" class="btn btn-success mb-3">Tambah Bucket Baru</a>
+                        <a href="{{ route('menus.create') }}" class="btn btn-success mb-3">Tambah Parfum Baru</a>
 
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Nama Bucket</th>
+                                        <th>Nama Parfum</th>
                                         <th>Deskripsi</th>
                                         <th>Tanggal</th>
                                         <th>Aksi</th>
